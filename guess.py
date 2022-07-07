@@ -12,7 +12,7 @@ users_name = raw_input()
 
 # making a random number and asking user to geuss number
 number = random.randint(1,20)
-print('ok, ' + myName + ', I am thinking of a number between 1 and 20')
+print('ok, ' + users_name + ', I am thinking of a number between 1 and 20')
  
 # loop 6 times 
 for guessesTaken in range(6):
@@ -35,7 +35,7 @@ for guessesTaken in range(6):
 # if users guess correctly then take number of guess convert to string and add one and tell users they got it right 
 if guess == number:
     guessesTaken = str(guessesTaken + 1)
-    print('good job, ' + myName + '! you guessed my number in ' + guessesTaken + ' guesses!')
+    print('good job, ' + users_name + '! you guessed my number in ' + guessesTaken + ' guesses!')
 
 # if not guessed in 6 trys convert number to string and tell users that they did not get it and show the number
 if guess != number:
