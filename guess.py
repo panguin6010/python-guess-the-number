@@ -27,7 +27,7 @@ for guessesTaken in range(6):
 
 if guess == number:
     guessesTaken = str(guessesTaken + 1)
-    print('good job, ' + myName + '! you guessed my number in ' + guessesTaken + 'guesses!')
+    print('good job, ' + myName + '! you guessed my number in ' + guessesTaken + ' guesses!')
 
 if guess != number:
     number = str(number)    
